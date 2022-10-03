@@ -1,4 +1,4 @@
-package com.example.application;
+package com.fetek.hilla;
 
 import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.server.PWA;
@@ -15,7 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @Theme(value = "hilla-starter")
-@PWA(name = "hilla-starter/", shortName = "hilla-starter/", offlineResources = {})
+@PWA(name = "hilla-starter", shortName = "hilla-starter", offlineResources = {})
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {
